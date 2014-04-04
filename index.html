@@ -70,7 +70,7 @@ $('form').submit(function() {
    
 	switch(data[0].status){
 		case 'success':
-			$('.message').addClass("text-success").html('Thank you, <strong>' + data[0].from + '</strong>, for sending us feedback!');
+			$('.message').addClass("text-success").html('Thank you, <strong>' + data[0].from + '</strong>, for contacting us!');
 			$('form')[0].reset();
 			break;
 		case 'invalid email':
